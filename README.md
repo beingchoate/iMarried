@@ -1,4 +1,4 @@
 iMarried
 ========
 
-This app is special tailed for myself
+This app is specially tailed for myself
