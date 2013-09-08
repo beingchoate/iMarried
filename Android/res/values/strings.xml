@@ -4,5 +4,9 @@
     <string name="app_name">WeMarried</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="wemarried_logo">WeMarried</string>
+    <string name="wemarried_teamlogo">Copyright © Vector Studio</string>
+    
+    <string name="imageview_description">Image Thumbnail</string>
 
 </resources>

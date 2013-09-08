@@ -14,13 +14,31 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.vector.wemarried.WeMarriedSplashActivity"
+            android:name="com.vector.wemarried.android.WeMarriedSplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.vector.wemarried.android.utils.bitmapfun.ui.ImageDetailActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.vector.wemarried.android.utils.bitmapfun.ui.ImageGridActivity"
+            android:theme="@style/AppTheme.FullScreen" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value="com.vector.wemarried.android.utils.bitmapfun.ui.ImageGridActivity" />
+        </activity>
+        
+        <activity
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:name="com.vector.wemarried.android.utils.bitmapfun.ui.ImageGridActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                       android:value="splitActionBarWhenNarrow"  />
         </activity>
     </application>
 
