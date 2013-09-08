@@ -8,6 +8,9 @@
 package com.vector.wemarried;
 
 public final class R {
+    public static final class array {
+        public static final int scene=0x7f0b0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -912,6 +915,9 @@ containing a value of this type.
         public static final int image_detail_pager_margin=0x7f070013;
         public static final int image_thumbnail_size=0x7f070011;
         public static final int image_thumbnail_spacing=0x7f070012;
+        public static final int menu_frag_list_padding=0x7f070015;
+        public static final int menu_frag_shadow_width=0x7f070016;
+        public static final int menu_frag_slidingmenu_offset=0x7f070014;
     }
     public static final class drawable {
         public static final int abs__ab_bottom_solid_dark_holo=0x7f020000;
@@ -1026,23 +1032,71 @@ containing a value of this type.
         public static final int abs__textfield_searchview_right_holo_dark=0x7f02006d;
         public static final int abs__textfield_searchview_right_holo_light=0x7f02006e;
         public static final int abs__toast_frame=0x7f02006f;
-        public static final int ic_launcher=0x7f020070;
-        public static final int photogrid_list_selector=0x7f020071;
-        public static final int sunflower_01=0x7f020072;
-        public static final int sunflower_02=0x7f020073;
-        public static final int sunflower_03=0x7f020074;
-        public static final int sunflower_04=0x7f020075;
-        public static final int sunflower_05=0x7f020076;
-        public static final int sunflower_06=0x7f020077;
-        public static final int sunflower_07=0x7f020078;
-        public static final int uniform_01=0x7f020079;
-        public static final int uniform_02=0x7f02007a;
-        public static final int uniform_03=0x7f02007b;
-        public static final int uniform_04=0x7f02007c;
-        public static final int uniform_05=0x7f02007d;
-        public static final int uniform_06=0x7f02007e;
-        public static final int uniform_07=0x7f02007f;
-        public static final int uniform_08=0x7f020080;
+        public static final int changxing_01=0x7f020070;
+        public static final int changxing_02=0x7f020071;
+        public static final int changxing_03=0x7f020072;
+        public static final int changxing_04=0x7f020073;
+        public static final int changxing_05=0x7f020074;
+        public static final int changxing_06=0x7f020075;
+        public static final int changxing_07=0x7f020076;
+        public static final int changxing_08=0x7f020077;
+        public static final int ic_launcher=0x7f020078;
+        public static final int lavender_01=0x7f020079;
+        public static final int lavender_02=0x7f02007a;
+        public static final int lavender_03=0x7f02007b;
+        public static final int lavender_04=0x7f02007c;
+        public static final int lavender_05=0x7f02007d;
+        public static final int lavender_06=0x7f02007e;
+        public static final int lavender_07=0x7f02007f;
+        public static final int lavender_08=0x7f020080;
+        public static final int lavender_09=0x7f020081;
+        public static final int lavender_10=0x7f020082;
+        public static final int lavender_11=0x7f020083;
+        public static final int lavender_12=0x7f020084;
+        public static final int lavender_13=0x7f020085;
+        public static final int lavender_14=0x7f020086;
+        public static final int lavender_15=0x7f020087;
+        public static final int lavender_16=0x7f020088;
+        public static final int nanshan_01=0x7f020089;
+        public static final int nanshan_02=0x7f02008a;
+        public static final int nanshan_03=0x7f02008b;
+        public static final int nanshan_04=0x7f02008c;
+        public static final int nanshan_05=0x7f02008d;
+        public static final int nanshan_06=0x7f02008e;
+        public static final int nanshan_07=0x7f02008f;
+        public static final int nanshan_08=0x7f020090;
+        public static final int photogrid_list_selector=0x7f020091;
+        public static final int shadow=0x7f020092;
+        public static final int sofa_01=0x7f020093;
+        public static final int sofa_02=0x7f020094;
+        public static final int sofa_03=0x7f020095;
+        public static final int sofa_04=0x7f020096;
+        public static final int sofa_05=0x7f020097;
+        public static final int sofa_06=0x7f020098;
+        public static final int sofa_07=0x7f020099;
+        public static final int sunflower_01=0x7f02009a;
+        public static final int sunflower_02=0x7f02009b;
+        public static final int sunflower_03=0x7f02009c;
+        public static final int sunflower_04=0x7f02009d;
+        public static final int sunflower_05=0x7f02009e;
+        public static final int sunflower_06=0x7f02009f;
+        public static final int sunflower_07=0x7f0200a0;
+        public static final int uniform_01=0x7f0200a1;
+        public static final int uniform_02=0x7f0200a2;
+        public static final int uniform_03=0x7f0200a3;
+        public static final int uniform_04=0x7f0200a4;
+        public static final int uniform_05=0x7f0200a5;
+        public static final int uniform_06=0x7f0200a6;
+        public static final int uniform_07=0x7f0200a7;
+        public static final int uniform_08=0x7f0200a8;
+        public static final int westlake_01=0x7f0200a9;
+        public static final int westlake_02=0x7f0200aa;
+        public static final int westlake_03=0x7f0200ab;
+        public static final int westlake_04=0x7f0200ac;
+        public static final int westlake_05=0x7f0200ad;
+        public static final int westlake_06=0x7f0200ae;
+        public static final int westlake_07=0x7f0200af;
+        public static final int westlake_08=0x7f0200b0;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040025;
@@ -1084,7 +1138,8 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040018;
         public static final int abs__title=0x7f040020;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f04003c;
+        public static final int action_settings=0x7f04003e;
+        public static final int content_frame=0x7f04003b;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f04002b;
         public static final int fullscreen=0x7f040013;
@@ -1094,6 +1149,7 @@ containing a value of this type.
         public static final int left=0x7f040010;
         public static final int listMode=0x7f040002;
         public static final int margin=0x7f040012;
+        public static final int menu_frame=0x7f04003c;
         public static final int normal=0x7f040001;
         public static final int pager=0x7f040039;
         public static final int right=0x7f040011;
@@ -1101,7 +1157,7 @@ containing a value of this type.
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int slidingmenumain=0x7f04003b;
+        public static final int slidingmenumain=0x7f04003d;
         public static final int tabMode=0x7f040003;
         public static final int textView1=0x7f040037;
         public static final int useLogo=0x7f040004;
@@ -1133,15 +1189,18 @@ containing a value of this type.
         public static final int abs__search_view=0x7f030013;
         public static final int abs__simple_dropdown_hint=0x7f030014;
         public static final int activity_we_married_splash=0x7f030015;
-        public static final int image_detail_fragment=0x7f030016;
-        public static final int image_detail_pager=0x7f030017;
-        public static final int image_grid_fragment=0x7f030018;
-        public static final int sherlock_spinner_dropdown_item=0x7f030019;
-        public static final int sherlock_spinner_item=0x7f03001a;
-        public static final int slidingmenumain=0x7f03001b;
+        public static final int fragment_menu_list=0x7f030016;
+        public static final int image_detail_fragment=0x7f030017;
+        public static final int image_detail_pager=0x7f030018;
+        public static final int image_grid_fragment=0x7f030019;
+        public static final int image_sliding_grid_fragment=0x7f03001a;
+        public static final int image_sliding_menu_frame=0x7f03001b;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001c;
+        public static final int sherlock_spinner_item=0x7f03001d;
+        public static final int slidingmenumain=0x7f03001e;
     }
     public static final class menu {
-        public static final int we_married_splash=0x7f0b0000;
+        public static final int we_married_splash=0x7f0c0000;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1188,6 +1247,13 @@ containing a value of this type.
         public static final int hello_world=0x7f09000f;
         public static final int imageview_description=0x7f090012;
         public static final int wemarried_logo=0x7f090010;
+        public static final int wemarried_menu_changxing=0x7f090013;
+        public static final int wemarried_menu_lavender=0x7f090014;
+        public static final int wemarried_menu_nanshan=0x7f090015;
+        public static final int wemarried_menu_sofa=0x7f090016;
+        public static final int wemarried_menu_sunflower=0x7f090017;
+        public static final int wemarried_menu_uniform=0x7f090018;
+        public static final int wemarried_menu_westlake=0x7f090019;
         public static final int wemarried_teamlogo=0x7f090011;
     }
     public static final class style {

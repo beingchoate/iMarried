@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="scene">
+        <item>@string/wemarried_menu_changxing</item>
+        <item>@string/wemarried_menu_lavender</item>
+        <item>@string/wemarried_menu_nanshan</item>
+        <item>@string/wemarried_menu_sofa</item>
+        <item>@string/wemarried_menu_sunflower</item>
+        <item>@string/wemarried_menu_uniform</item>
+        <item>@string/wemarried_menu_westlake</item>
+    </string-array>
+
+
+</resources>

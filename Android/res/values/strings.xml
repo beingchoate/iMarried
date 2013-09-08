@@ -8,5 +8,13 @@
     <string name="wemarried_teamlogo">Copyright © Vector Studio</string>
     
     <string name="imageview_description">Image Thumbnail</string>
+    <string name="wemarried_menu_changxing">Changxing</string>
+    <string name="wemarried_menu_lavender">Lavender</string>
+    <string name="wemarried_menu_nanshan">Nanshan</string>
+    <string name="wemarried_menu_sofa">Sofa</string>
+    <string name="wemarried_menu_sunflower">Sunflower</string>
+    <string name="wemarried_menu_uniform">Uniform</string>
+    <string name="wemarried_menu_westlake">Westlake</string>
+    
 
 </resources>
