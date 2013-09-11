@@ -4,5 +4,6 @@
 
     <color name="grid_state_pressed">#BB7dbcd3</color>
     <color name="grid_state_focused">#777dbcd3</color>
+    <color name="tools_box_bg">#ff333332</color>
 
 </resources>

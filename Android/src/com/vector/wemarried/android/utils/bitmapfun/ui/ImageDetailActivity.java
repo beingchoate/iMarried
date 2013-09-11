@@ -33,8 +33,8 @@ import android.view.View.OnClickListener;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Toast;
 
-import com.vector.wemarried.BuildConfig;
-import com.vector.wemarried.R;
+import com.vector.wemarried.android.BuildConfig;
+import com.vector.wemarried.android.R;
 import com.vector.wemarried.android.utils.bitmapfun.ui.Utils;
 import com.vector.wemarried.android.utils.bitmapfun.provider.Images;
 

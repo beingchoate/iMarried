@@ -1,6 +1,6 @@
 package com.vector.wemarried.android.utils.bitmapfun.provider;
 
-import com.vector.wemarried.R;
+import com.vector.wemarried.android.R;
 
 
 /**

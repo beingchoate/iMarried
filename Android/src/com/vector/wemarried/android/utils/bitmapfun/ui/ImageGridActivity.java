@@ -18,16 +18,14 @@ package com.vector.wemarried.android.utils.bitmapfun.ui;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
-import com.vector.wemarried.BuildConfig;
-import com.vector.wemarried.R;
-import com.vector.wemarried.android.WeMarriedMenuFragment;
+import com.vector.wemarried.android.BuildConfig;
+import com.vector.wemarried.android.R;
+import com.vector.wemarried.android.WeMarriedSlidingLeftFragment;
 import com.vector.wemarried.android.utils.bitmapfun.ui.Utils;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 
@@ -78,18 +76,22 @@ public class ImageGridActivity extends SlidingFragmentActivity {
 		// set the Behind View Fragment
 		getSupportFragmentManager()
 		.beginTransaction()
-		.replace(R.id.menu_frame, new WeMarriedMenuFragment())
+		.replace(R.id.menu_frame, new WeMarriedSlidingLeftFragment())
 		.commit();
 		
 		// customize the SlidingMenu
 		SlidingMenu sm = getSlidingMenu();
+		sm.setMode(SlidingMenu.LEFT);
 		sm.setBehindOffsetRes(R.dimen.menu_frag_slidingmenu_offset);
-		sm.setShadowWidthRes(R.dimen.menu_frag_shadow_width);
+		sm.setFadeDegree(0.35f);
+		sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+		sm.setShadowWidthRes(R.dimen.menu_frag_shadow_width);		
 		sm.setShadowDrawable(R.drawable.shadow);
+		sm.setFadeEnabled(true);
 		sm.setBehindScrollScale(0.25f);
-		sm.setFadeDegree(0.25f);
+		sm.setFadeDegree(0.333f);
 
-    }
+    }    
     
 	@Override
 	public void onSaveInstanceState(Bundle outState) {

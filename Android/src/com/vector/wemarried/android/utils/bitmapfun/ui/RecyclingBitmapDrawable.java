@@ -16,7 +16,7 @@
 
 package com.vector.wemarried.android.utils.bitmapfun.ui;
 
-import com.vector.wemarried.BuildConfig;
+import com.vector.wemarried.android.BuildConfig;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;

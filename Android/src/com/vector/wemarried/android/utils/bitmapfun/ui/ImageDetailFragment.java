@@ -24,7 +24,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.vector.wemarried.R;
+import com.vector.wemarried.android.R;
 import com.vector.wemarried.android.utils.bitmapfun.ui.Utils;
 import com.vector.wemarried.android.utils.photoview.PhotoViewAttacher;
 

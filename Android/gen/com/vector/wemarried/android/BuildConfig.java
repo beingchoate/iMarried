@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.vector.wemarried;
+package com.vector.wemarried.android;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

@@ -1,6 +1,6 @@
 package com.vector.wemarried.android;
 
-import com.vector.wemarried.R;
+import com.vector.wemarried.android.R;
 import com.vector.wemarried.android.utils.bitmapfun.provider.Images;
 import com.vector.wemarried.android.utils.bitmapfun.ui.ImageGridActivity;
 import com.vector.wemarried.android.utils.bitmapfun.ui.ImageGridFragment;
