@@ -28,13 +28,17 @@ import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageButton;
 
 /**
  * Simple FragmentActivity to hold the main {@link ImageGridFragment} and not much else.
  */
-public class ImageGridActivity extends SlidingFragmentActivity {
+public class ImageGridActivity extends SlidingFragmentActivity implements OnClickListener{
     private static final String TAG = "ImageGridActivity";
     private Fragment mContent;
+    private ImageButton mToShowLeftBtn;
+    protected SlidingMenu mSlidingMenu;
 
     @Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,8 @@ public class ImageGridActivity extends SlidingFragmentActivity {
         super.onCreate(savedInstanceState);
         
         setContentView(R.layout.image_sliding_grid_fragment);
+        mToShowLeftBtn = (ImageButton)this.findViewById(R.id.ivTitleBtnLeft);
+        mToShowLeftBtn.setOnClickListener(this);      
         
 		// check if the content frame contains the menu frame
 		if (findViewById(R.id.menu_frame) == null) {
@@ -80,18 +86,30 @@ public class ImageGridActivity extends SlidingFragmentActivity {
 		.commit();
 		
 		// customize the SlidingMenu
-		SlidingMenu sm = getSlidingMenu();
-		sm.setMode(SlidingMenu.LEFT);
-		sm.setBehindOffsetRes(R.dimen.menu_frag_slidingmenu_offset);
-		sm.setFadeDegree(0.35f);
-		sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-		sm.setShadowWidthRes(R.dimen.menu_frag_shadow_width);		
-		sm.setShadowDrawable(R.drawable.shadow);
-		sm.setFadeEnabled(true);
-		sm.setBehindScrollScale(0.25f);
-		sm.setFadeDegree(0.333f);
+		mSlidingMenu = getSlidingMenu();
+		mSlidingMenu.setMode(SlidingMenu.LEFT);
+		mSlidingMenu.setBehindOffsetRes(R.dimen.menu_frag_slidingmenu_offset);
+		mSlidingMenu.setFadeDegree(0.35f);
+		mSlidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+		mSlidingMenu.setShadowWidthRes(R.dimen.menu_frag_shadow_width);		
+		mSlidingMenu.setShadowDrawable(R.drawable.shadow);
+		mSlidingMenu.setFadeEnabled(true);
+		mSlidingMenu.setBehindScrollScale(0.25f);
+		mSlidingMenu.setFadeDegree(0.333f);
 
-    }    
+    } 
+    
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+		case R.id.ivTitleBtnLeft:
+			mSlidingMenu.showMenu(true);
+			break;
+		default:
+			break;
+		}
+		
+	}
     
 	@Override
 	public void onSaveInstanceState(Bundle outState) {

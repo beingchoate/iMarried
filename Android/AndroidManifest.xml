@@ -12,7 +12,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@*android:style/Theme.NoTitleBar">
         <activity
             android:name="com.vector.wemarried.android.WeMarriedSplashActivity"
             android:label="@string/app_name" >
@@ -35,8 +35,7 @@
         <activity
             android:uiOptions="splitActionBarWhenNarrow"
             android:name="com.vector.wemarried.android.utils.bitmapfun.ui.ImageGridActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme">
+            android:label="@string/app_name">
             <meta-data android:name="android.support.UI_OPTIONS"
                        android:value="splitActionBarWhenNarrow"  />
         </activity>

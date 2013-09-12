@@ -174,6 +174,7 @@ public class ImageGridFragment extends Fragment implements AdapterView.OnItemCli
                     android.R.attr.actionBarSize, tv, true)) {
                 mActionBarHeight = TypedValue.complexToDimensionPixelSize(
                         tv.data, context.getResources().getDisplayMetrics());
+                mActionBarHeight = 0;
             }
         }
 
