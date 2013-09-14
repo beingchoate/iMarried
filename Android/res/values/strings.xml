@@ -7,6 +7,9 @@
     <string name="wemarried_logo">WeMarried</string>
     <string name="wemarried_teamlogo">Copyright © Vector Studio</string>
     
+    <string name="wemarried_midpage_title">Our Wedding</string>
+    <string name="wemarried_startpage_date">2013.11.30</string>
+    <string name="wemarried_startpage_text">A Start For The Blessed Future</string>
     <string name="wemarried_menu_title">Love</string>
     <string name="wemarried_menu_items">Pictures</string>
     <string name="wemarried_menu_empty"></string>

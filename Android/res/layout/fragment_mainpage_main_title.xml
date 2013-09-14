@@ -8,8 +8,9 @@
     <ImageView
         android:id="@+id/rlCommenTitleBG"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/comm_title_bg" />
+        android:layout_height="fill_parent"        
+        android:background="#cd5c5c" />
+    <!-- @drawable/comm_title_bg -->
 
     <TextView
         android:id="@+id/ivTitleName"

@@ -241,7 +241,7 @@ public class ImageGridFragment extends Fragment implements AdapterView.OnItemCli
 
             // Finally load the image asynchronously into the ImageView, this also takes care of
             // setting a placeholder image while the background thread runs
-            ImageShower.showImage(Images.imageIDs[position - mNumColumns], imageView);
+            ImageShower.showImage(getActivity(), Images.imageIDs[position - mNumColumns], imageView);
             return imageView;
         }
 

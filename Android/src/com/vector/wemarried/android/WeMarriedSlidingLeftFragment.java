@@ -13,6 +13,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
 public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickListener{
+	private View mHeadView;
 	private View mChangxingSetView;
 	private View mLavenderSetView;
 	private View mNanshanSetView;
@@ -31,6 +32,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
     		Bundle savedInstanceState) {
     	 View view = inflater.inflate(R.layout.image_sliding_left_fragment, container,
  				false);
+    	 mHeadView = view.findViewById(R.id.headImageView);
     	 mChangxingSetView = view.findViewById(R.id.changxingset);
     	 mLavenderSetView = view.findViewById(R.id.lavenderset);
     	 mNanshanSetView = view.findViewById(R.id.nanshanset);
@@ -39,6 +41,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
     	 mUniformView = view.findViewById(R.id.uniformset);
     	 mWestlakeView = view.findViewById(R.id.westlakeset);
     	 
+    	 mHeadView.setOnClickListener(this);
     	 mChangxingSetView.setOnClickListener(this);
     	 mLavenderSetView.setOnClickListener(this);
     	 mNanshanSetView.setOnClickListener(this);
@@ -55,6 +58,9 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 	public void onClick(View v) {
 		Fragment newContent = null;
 		switch (v.getId()) {
+		case R.id.headImageView:
+		    newContent = new WeMarriedSlidingStartFragment();
+		    break;
 		case R.id.changxingset:
 			Images.switchToChangxing();
 			newContent = new ImageGridFragment();

@@ -21,6 +21,8 @@ import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import com.vector.wemarried.android.BuildConfig;
 import com.vector.wemarried.android.R;
 import com.vector.wemarried.android.WeMarriedSlidingLeftFragment;
+import com.vector.wemarried.android.WeMarriedSlidingRightFragment;
+import com.vector.wemarried.android.WeMarriedSlidingStartFragment;
 import com.vector.wemarried.android.utils.bitmapfun.ui.Utils;
 
 import android.os.Bundle;
@@ -71,7 +73,7 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
 		if (savedInstanceState != null)
 			mContent = getSupportFragmentManager().getFragment(savedInstanceState, "mContent");
 		if (mContent == null)
-			mContent = new ImageGridFragment();	
+			mContent = new WeMarriedSlidingStartFragment();//ImageGridFragment();	
 		if (getSupportFragmentManager().findFragmentByTag(TAG) == null) {
             final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, mContent);
@@ -83,11 +85,11 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
 		getSupportFragmentManager()
 		.beginTransaction()
 		.replace(R.id.menu_frame, new WeMarriedSlidingLeftFragment())
-		.commit();
+		.commit();		
 		
 		// customize the SlidingMenu
 		mSlidingMenu = getSlidingMenu();
-		mSlidingMenu.setMode(SlidingMenu.LEFT);
+		mSlidingMenu.setMode(SlidingMenu.LEFT_RIGHT);
 		mSlidingMenu.setBehindOffsetRes(R.dimen.menu_frag_slidingmenu_offset);
 		mSlidingMenu.setFadeDegree(0.35f);
 		mSlidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
@@ -96,7 +98,14 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
 		mSlidingMenu.setFadeEnabled(true);
 		mSlidingMenu.setBehindScrollScale(0.25f);
 		mSlidingMenu.setFadeDegree(0.333f);
-
+		
+		mSlidingMenu.setSecondaryMenu(R.layout.image_sliding_right_frame);
+		mSlidingMenu.setSecondaryShadowDrawable(R.drawable.shadowright);
+		getSupportFragmentManager()
+		.beginTransaction()
+		.replace(R.id.image_sliding_right_frame, new WeMarriedSlidingRightFragment())
+		.commit();
+		
     } 
     
 	@Override
