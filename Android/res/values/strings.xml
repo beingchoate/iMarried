@@ -22,5 +22,14 @@
     <string name="wemarried_menu_uniform">Uniform</string>
     <string name="wemarried_menu_westlake">Westlake</string>
     <string name="wemarried_menu_contact">Contact</string>
-        
+    
+    <string name="wemarried_rightpage_title1">Scene Place</string>
+    <string name="wemarried_rightpage_desc1">This sets of pictures are taken in different places.</string>
+    <string name="wemarried_rightpage_title2">Set Name</string>
+    <string name="wemarried_rightpage_desc2">The suites are given different names</string>
+    <string name="wemarried_rightpage_title3">Description</string>
+    <string name="wemarried_rightpage_desc3"></string>
+    
+    <string name="wemarried_rightpage_desc3"></string>
+    
 </resources>

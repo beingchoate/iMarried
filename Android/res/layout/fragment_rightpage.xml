@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/tools_box_bg">
+    
+    <TextView
+        android:id="@+id/leftdesctitle1"
+        style="@style/A1_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="40dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/wemarried_rightpage_title1" /> 
+        
+    <View  
+        android:layout_width="fill_parent"  
+        android:layout_height="2dip" 
+        android:background="?android:attr/listDivider"  /> 
+        
+    <TextView
+        android:id="@+id/leftdesc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="8dip"
+        android:ellipsize="end"
+        android:text="@string/wemarried_rightpage_desc1" /> 
+        
+    <TextView
+        android:id="@+id/leftdesctitle2"
+        style="@style/A1_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="12dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/wemarried_rightpage_title2" /> 
+
+    <View  
+        android:layout_width="fill_parent"  
+        android:layout_height="2dip" 
+        android:background="?android:attr/listDivider"  /> 
+
+    <TextView
+        android:id="@+id/leftdesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="8dip"
+        android:ellipsize="end"
+        android:text="@string/wemarried_rightpage_desc2" /> 
+
+    <TextView
+        android:id="@+id/leftdesctitle3"
+        style="@style/A1_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="12dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/wemarried_rightpage_title3" /> 
+
+    <View  
+        android:layout_width="fill_parent"  
+        android:layout_height="2dip" 
+        android:background="?android:attr/listDivider"  /> 
+
+    <TextView
+        android:id="@+id/leftdesc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="8dip"
+        android:ellipsize="end"
+        android:text="@string/wemarried_rightpage_desc3" /> 
+</LinearLayout>

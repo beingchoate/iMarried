@@ -40,6 +40,7 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
     private static final String TAG = "ImageGridActivity";
     private Fragment mContent;
     private ImageButton mToShowLeftBtn;
+    private ImageButton mToShowRightBtn;
     protected SlidingMenu mSlidingMenu;
 
     @Override
@@ -52,7 +53,9 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
         
         setContentView(R.layout.image_sliding_grid_fragment);
         mToShowLeftBtn = (ImageButton)this.findViewById(R.id.ivTitleBtnLeft);
-        mToShowLeftBtn.setOnClickListener(this);      
+        mToShowRightBtn = (ImageButton)this.findViewById(R.id.ivTitleBtnRight);
+        mToShowLeftBtn.setOnClickListener(this);  
+        mToShowRightBtn.setOnClickListener(this);
         
 		// check if the content frame contains the menu frame
 		if (findViewById(R.id.menu_frame) == null) {
@@ -113,6 +116,9 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
 		switch (v.getId()) {
 		case R.id.ivTitleBtnLeft:
 			mSlidingMenu.showMenu(true);
+			break;
+		case R.id.ivTitleBtnRight:
+			mSlidingMenu.showSecondaryMenu(true);
 			break;
 		default:
 			break;
