@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeMarried</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="wemarried_logo">WeMarried</string>
+    <string name="wemarried_teamlogo">Copyright © Vector Studio</string>
+    
+    <string name="wemarried_midpage_title">我们的婚礼</string>
+    <string name="wemarried_startpage_player1">新郎： 李&#160;&#160;&#160;&#160;诚</string>
+    <string name="wemarried_startpage_player2">新娘： 沈丽娟</string>
+    <string name="wemarried_startpage_party">婚礼：</string>
+    <string name="wemarried_startpage_date">时间：2013年11月30日下午5时</string>
+    <string name="wemarried_startpage_place">地点：长兴县维多利亚大酒店</string>
+    <string name="wemarried_startpage_text">幸福的起点</string>
+    <string name="wemarried_menu_title">李诚 沈丽娟</string>
+    <string name="wemarried_menu_items">婚纱照</string>
+    <string name="wemarried_menu_empty"></string>
+    <string name="imageview_description">Image Thumbnail</string>
+    <string name="wemarried_menu_changxing">环游世界</string>
+    <string name="wemarried_menu_lavender">心心相印</string>
+    <string name="wemarried_menu_nanshan">经典永恒</string>
+    <string name="wemarried_menu_sofa">鎏金岁月</string>
+    <string name="wemarried_menu_sunflower">天生一对</string>
+    <string name="wemarried_menu_uniform">革命年代</string>
+    <string name="wemarried_menu_westlake">清新湖岸</string>
+    <string name="wemarried_menu_contact">联系</string>
+    
+    <string name="wemarried_rightpage_title1">拍摄地</string>
+    <string name="wemarried_rightpage_desc1">本婚纱集中的照片拍摄于不同的地点。</string>
+    <string name="wemarried_rightpage_title2">相片主题</string>
+    <string name="wemarried_rightpage_desc2">每个场景及服装都有一个主题</string>
+    <string name="wemarried_rightpage_title3">描述</string>
+    <string name="wemarried_rightpage_desc3"></string>
+    
+    <string name="wemarried_rightpage_scene_changxing">长兴县县政府大楼前广场</string>
+    <string name="wemarried_rightpage_suitname_changxing">环游世界</string>
+    <string name="wemarried_rightpage_scene_lavender">长兴县二届岭薰衣草庄园，部分拍摄于二届岭水库</string>
+    <string name="wemarried_rightpage_suitname_lavender">心心相印</string>
+    <string name="wemarried_rightpage_scene_nanshan">杭州市西湖风景区南山路</string>
+    <string name="wemarried_rightpage_suitname_nanshan">经典永恒</string>
+    <string name="wemarried_rightpage_scene_sofa">杭州市滨江区80印象馆室内摄影棚</string>
+    <string name="wemarried_rightpage_suitname_sofa">鎏金岁月</string>
+    <string name="wemarried_rightpage_scene_sunflower">杭州市滨江区80印象馆室内摄影棚</string>
+    <string name="wemarried_rightpage_suitname_sunflower">天生一对</string>    
+    <string name="wemarried_rightpage_scene_uniform">杭州市滨江区80印象馆室内摄影棚</string>
+    <string name="wemarried_rightpage_suitname_uniform">革命年代</string>  
+    <string name="wemarried_rightpage_scene_westlake">杭州市西湖风景区杨公堤</string>
+    <string name="wemarried_rightpage_suitname_westlake">清新湖岸</string> 
+    
+</resources>

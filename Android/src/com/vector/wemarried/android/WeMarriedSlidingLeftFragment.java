@@ -59,6 +59,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 		Fragment newContent = null;
 		switch (v.getId()) {
 		case R.id.headImageView:
+			WeMarriedSlidingRightFragment.switchToDefaultSet();
 		    newContent = new WeMarriedSlidingStartFragment();
 		    break;
 		case R.id.changxingset:

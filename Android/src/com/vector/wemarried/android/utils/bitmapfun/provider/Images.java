@@ -1,6 +1,7 @@
 package com.vector.wemarried.android.utils.bitmapfun.provider;
 
 import com.vector.wemarried.android.R;
+import com.vector.wemarried.android.WeMarriedSlidingRightFragment;
 
 
 /**
@@ -93,31 +94,38 @@ public class Images {
     public static int[] imageIDs = sunflowerGroup;
     
     public static void switchToSunflower(){
-    	imageIDs = sunflowerGroup;    
+    	imageIDs = sunflowerGroup;
+    	WeMarriedSlidingRightFragment.switchToSunflowerSet();
     }
     
     public static void switchToUniform(){
     	imageIDs = uniformGroup;
+    	WeMarriedSlidingRightFragment.switchToUniformSet();
     }
 
     public static void switchToChangxing(){
     	imageIDs = changxingGroup;
+    	WeMarriedSlidingRightFragment.switchToChangxingSet();
     }
     
     public static void switchToLavender(){
     	imageIDs = lavenderGroup;
+    	WeMarriedSlidingRightFragment.switchToLavenderSet();
     }
     
     public static void switchToNanshan(){
     	imageIDs = nanshanGroup;
+    	WeMarriedSlidingRightFragment.switchToNanshanSet();
     }
     
     public static void switchToSofa(){
     	imageIDs = sofaGroup;
+    	WeMarriedSlidingRightFragment.switchToSofaSet();
     }
     
     public static void switchToWestlake(){
     	imageIDs = westlakeGroup;
+    	WeMarriedSlidingRightFragment.switchToWestlakeSet();
     }
 /*
     public final static String[] imageThumbUrls = new String[] {

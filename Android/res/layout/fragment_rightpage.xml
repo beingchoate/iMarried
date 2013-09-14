@@ -18,7 +18,7 @@
         
     <View  
         android:layout_width="fill_parent"  
-        android:layout_height="2dip" 
+        android:layout_height="1dip" 
         android:background="?android:attr/listDivider"  /> 
         
     <TextView
@@ -43,7 +43,7 @@
 
     <View  
         android:layout_width="fill_parent"  
-        android:layout_height="2dip" 
+        android:layout_height="1dip" 
         android:background="?android:attr/listDivider"  /> 
 
     <TextView
@@ -68,7 +68,7 @@
 
     <View  
         android:layout_width="fill_parent"  
-        android:layout_height="2dip" 
+        android:layout_height="1dip" 
         android:background="?android:attr/listDivider"  /> 
 
     <TextView

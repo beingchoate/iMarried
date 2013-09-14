@@ -80,7 +80,8 @@
             android:background="@drawable/tools_box_invite_btn_selector" 
             android:layout_width="wrap_content" 
             android:layout_height="wrap_content" 
-            android:layout_marginTop="20.0dip" 
+            android:layout_marginTop="20.0dip"
+            android:layout_marginBottom="20.0dip"
             android:text="@string/wemarried_menu_contact" />
     </LinearLayout>
 </ScrollView>

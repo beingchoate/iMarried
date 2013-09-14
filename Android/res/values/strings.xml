@@ -8,7 +8,11 @@
     <string name="wemarried_teamlogo">Copyright © Vector Studio</string>
     
     <string name="wemarried_midpage_title">Our Wedding</string>
-    <string name="wemarried_startpage_date">2013.11.30</string>
+    <string name="wemarried_startpage_player1">Bridegroom: Chris.Li</string>
+    <string name="wemarried_startpage_player2">Bride:      Beatrice.Shen</string>
+    <string name="wemarried_startpage_party">Wedding Party:</string>
+    <string name="wemarried_startpage_date">Time: 17:00 2013.11.30</string>
+    <string name="wemarried_startpage_place">Place: Victoria Hotel, Changxing</string>
     <string name="wemarried_startpage_text">A Start For The Blessed Future</string>
     <string name="wemarried_menu_title">Love</string>
     <string name="wemarried_menu_items">Pictures</string>
@@ -30,6 +34,19 @@
     <string name="wemarried_rightpage_title3">Description</string>
     <string name="wemarried_rightpage_desc3"></string>
     
-    <string name="wemarried_rightpage_desc3"></string>
+    <string name="wemarried_rightpage_scene_changxing">On the square in the front of the goverment building of Changxing.</string>
+    <string name="wemarried_rightpage_suitname_changxing">Travel</string>
+    <string name="wemarried_rightpage_scene_lavender">In the lavender manor of Changxing.</string>
+    <string name="wemarried_rightpage_suitname_lavender">Soulmate</string>
+    <string name="wemarried_rightpage_scene_nanshan">Nanshan road, Hangzhou westlake scenic area.</string>
+    <string name="wemarried_rightpage_suitname_nanshan">Timeless</string>
+    <string name="wemarried_rightpage_scene_sofa">In the studio of 80 Impression, Binjiang Hangzhou.</string>
+    <string name="wemarried_rightpage_suitname_sofa">Golden Days</string>
+    <string name="wemarried_rightpage_scene_sunflower">In the studio of 80 Impression, Binjiang Hangzhou.</string>
+    <string name="wemarried_rightpage_suitname_sunflower">A Couple</string>    
+    <string name="wemarried_rightpage_scene_uniform">In the studio of 80 Impression, Binjiang Hangzhou.</string>
+    <string name="wemarried_rightpage_suitname_uniform">The Revolution</string>  
+    <string name="wemarried_rightpage_scene_westlake">Yanggong Dike, Hangzhou westlake scenic area.</string>
+    <string name="wemarried_rightpage_suitname_westlake">Lakeshore</string> 
     
 </resources>
