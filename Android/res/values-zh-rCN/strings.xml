@@ -25,7 +25,7 @@
     <string name="wemarried_menu_sunflower">天生一对</string>
     <string name="wemarried_menu_uniform">革命年代</string>
     <string name="wemarried_menu_westlake">清新湖岸</string>
-    <string name="wemarried_menu_contact">联系</string>
+    <string name="wemarried_menu_contact">关于</string>
     
     <string name="wemarried_rightpage_title1">拍摄地</string>
     <string name="wemarried_rightpage_desc1">本婚纱集中的照片拍摄于不同的地点。</string>
@@ -48,5 +48,13 @@
     <string name="wemarried_rightpage_suitname_uniform">革命年代</string>  
     <string name="wemarried_rightpage_scene_westlake">杭州市西湖风景区杨公堤</string>
     <string name="wemarried_rightpage_suitname_westlake">清新湖岸</string> 
+    
+    <string name="wemarried_aboutpage_version">版本：0.0.1</string>
+    <string name="wemarried_aboutpage_author">杭州维克科技工作室&#160;版权所有</string>
+    <string name="wemarried_aboutpage_copyright">Copyright(©) 2013</string>
+    <string name="wemarried_aboutpage_right">Hangzhou Vector Studio</string>
+    <string name="wemarried_aboutpage_allrightreserved">All Right Reserved</string>
+    <string name="wemarried_aboutpage_contact">作者：Chris.Li</string>
+    <string name="wemarried_aboutpage_email">邮箱：chris.li.cheng@gmail.com</string>
     
 </resources>

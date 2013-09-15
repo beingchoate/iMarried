@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent" 
+    android:background="@color/tools_box_bg">    
+
+    <View
+        android:id="@+id/about_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="60dip"
+        android:background="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/about_appname"
+            style="@style/A1_Font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_logo"
+            android:layout_marginTop="15dip"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0.0dip"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/about_version"
+            style="@style/A2_Font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_appname"
+            android:layout_marginTop="5dip"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0.0dip"
+            android:text="@string/wemarried_aboutpage_version" />
+
+    <View
+        android:id="@+id/about_divider1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/about_version"
+        android:layout_marginLeft="35dip"
+        android:layout_marginRight="35dip"
+        android:layout_marginTop="15dip"
+        android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/about_author"
+            style="@style/A2_Font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_divider1"
+            android:layout_marginTop="5dip"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0.0dip"
+            android:text="@string/wemarried_aboutpage_contact" />
+        
+        <TextView
+            android:id="@+id/about_email"
+            style="@style/A2_Font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_author"
+            android:layout_marginTop="3dip"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0.0dip"
+            android:text="@string/wemarried_aboutpage_email" />
+        
+    <View
+        android:id="@+id/about_divider2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/about_email"
+        android:layout_marginLeft="35dip"
+        android:layout_marginRight="35dip"
+        android:layout_marginTop="5dip"
+        android:background="?android:attr/listDivider" />
+
+       <TextView
+            android:id="@+id/about_allrightreserved"
+            style="@style/A4_Font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dip"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0.0dip"
+            android:text="@string/wemarried_aboutpage_allrightreserved" />
+
+       <TextView
+            android:id="@+id/about_studio"
+            style="@style/A4_Font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/about_allrightreserved"
+            android:layout_marginBottom="2dip"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0.0dip"
+            android:text="@string/wemarried_aboutpage_right" />
+
+       <TextView
+            android:id="@+id/about_copyright"
+            style="@style/A4_Font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/about_studio"
+            android:layout_marginBottom="2dip"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0.0dip"
+            android:text="@string/wemarried_aboutpage_copyright" />
+               
+       <TextView
+        android:id="@+id/about_reserved"
+        style="@style/A4_Font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/about_copyright"
+        android:layout_marginBottom="8dip"
+        android:gravity="center_horizontal"
+        android:paddingLeft="0.0dip"
+        android:text="@string/wemarried_aboutpage_author" />
+
+</RelativeLayout>

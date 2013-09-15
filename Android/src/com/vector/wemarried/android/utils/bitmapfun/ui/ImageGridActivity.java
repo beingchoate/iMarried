@@ -32,6 +32,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 /**
  * Simple FragmentActivity to hold the main {@link ImageGridFragment} and not much else.
@@ -42,6 +43,7 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
     private ImageButton mToShowLeftBtn;
     private ImageButton mToShowRightBtn;
     protected SlidingMenu mSlidingMenu;
+    public static TextView mPageTitle;
 
     @Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -54,6 +56,7 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
         setContentView(R.layout.image_sliding_grid_fragment);
         mToShowLeftBtn = (ImageButton)this.findViewById(R.id.ivTitleBtnLeft);
         mToShowRightBtn = (ImageButton)this.findViewById(R.id.ivTitleBtnRight);
+        mPageTitle = (TextView)this.findViewById(R.id.ivTitleName);
         mToShowLeftBtn.setOnClickListener(this);  
         mToShowRightBtn.setOnClickListener(this);
         
@@ -110,6 +113,10 @@ public class ImageGridActivity extends SlidingFragmentActivity implements OnClic
 		.commit();
 		
     } 
+    
+    public static void onChangePageTitle(int _resId){
+    	mPageTitle.setText(_resId);
+    }
     
 	@Override
 	public void onClick(View v) {

@@ -21,6 +21,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 	private View mSunflowerView;
 	private View mUniformView;
 	private View mWestlakeView;
+	private View mAboutView;
 	
      @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,6 +41,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
     	 mSunflowerView = view.findViewById(R.id.sunflowerset);
     	 mUniformView = view.findViewById(R.id.uniformset);
     	 mWestlakeView = view.findViewById(R.id.westlakeset);
+    	 mAboutView = view.findViewById(R.id.aboutbtnlayout);
     	 
     	 mHeadView.setOnClickListener(this);
     	 mChangxingSetView.setOnClickListener(this);
@@ -49,6 +51,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
     	 mSunflowerView.setOnClickListener(this);
     	 mUniformView.setOnClickListener(this);
     	 mWestlakeView.setOnClickListener(this);
+    	 mAboutView.setOnClickListener(this);
 
  		System.out.println();
     	return view;
@@ -59,10 +62,12 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 		Fragment newContent = null;
 		switch (v.getId()) {
 		case R.id.headImageView:
+			ImageGridActivity.onChangePageTitle(R.string.app_name);
 			WeMarriedSlidingRightFragment.switchToDefaultSet();
 		    newContent = new WeMarriedSlidingStartFragment();
 		    break;
 		case R.id.changxingset:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_changxing);
 			Images.switchToChangxing();
 			newContent = new ImageGridFragment();
 			mChangxingSetView.setSelected(true);
@@ -74,6 +79,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 			mWestlakeView.setSelected(false);			
 			break;
 		case R.id.lavenderset:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_lavender);
 			Images.switchToLavender();
 			newContent = new ImageGridFragment();
 			mChangxingSetView.setSelected(false);
@@ -85,6 +91,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 			mWestlakeView.setSelected(false);	
 			break;
 		case R.id.nanshanset:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_nanshan);
 			Images.switchToNanshan();
 			newContent = new ImageGridFragment();
 			mChangxingSetView.setSelected(false);
@@ -96,6 +103,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 			mWestlakeView.setSelected(false);	
 		    break;
 		case R.id.sofaset:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_sofa);
 			Images.switchToSofa();
 			newContent = new ImageGridFragment();
 			mChangxingSetView.setSelected(false);
@@ -107,6 +115,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 			mWestlakeView.setSelected(false);	
 		    break;
 		case R.id.sunflowerset:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_sunflower);
 			Images.switchToSunflower();
 			newContent = new ImageGridFragment();
 			mChangxingSetView.setSelected(false);
@@ -118,6 +127,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 			mWestlakeView.setSelected(false);	
 		    break;
 		case R.id.uniformset:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_uniform);
 			Images.switchToUniform();
 			newContent = new ImageGridFragment();
 			mChangxingSetView.setSelected(false);
@@ -129,6 +139,7 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 			mWestlakeView.setSelected(false);	
 		    break;
 		case R.id.westlakeset:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_westlake);
 			Images.switchToWestlake();
 			newContent = new ImageGridFragment();
 			mChangxingSetView.setSelected(false);
@@ -139,6 +150,11 @@ public class WeMarriedSlidingLeftFragment extends Fragment implements OnClickLis
 			mUniformView.setSelected(false);
 			mWestlakeView.setSelected(true);	
 		    break;
+		case R.id.aboutbtnlayout:
+			ImageGridActivity.onChangePageTitle(R.string.wemarried_menu_contact);
+			WeMarriedSlidingRightFragment.switchToDefaultSet();
+		    newContent = new WeMarriedAboutFragment();
+		    break;			
 		default:
 			break;
 		}

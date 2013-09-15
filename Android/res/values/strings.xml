@@ -25,7 +25,7 @@
     <string name="wemarried_menu_sunflower">Sunflower</string>
     <string name="wemarried_menu_uniform">Uniform</string>
     <string name="wemarried_menu_westlake">Westlake</string>
-    <string name="wemarried_menu_contact">Contact</string>
+    <string name="wemarried_menu_contact">About</string>
     
     <string name="wemarried_rightpage_title1">Scene Place</string>
     <string name="wemarried_rightpage_desc1">This sets of pictures are taken in different places.</string>
@@ -47,6 +47,14 @@
     <string name="wemarried_rightpage_scene_uniform">In the studio of 80 Impression, Binjiang Hangzhou.</string>
     <string name="wemarried_rightpage_suitname_uniform">The Revolution</string>  
     <string name="wemarried_rightpage_scene_westlake">Yanggong Dike, Hangzhou westlake scenic area.</string>
-    <string name="wemarried_rightpage_suitname_westlake">Lakeshore</string> 
+    <string name="wemarried_rightpage_suitname_westlake">Lakeshore</string>
+    
+    <string name="wemarried_aboutpage_version">Version: 0.0.1</string>
+    <string name="wemarried_aboutpage_author">Vector Studio</string>
+    <string name="wemarried_aboutpage_copyright">Copyright(©) 2013</string>
+    <string name="wemarried_aboutpage_right">Hangzhou Vector Studio</string>
+    <string name="wemarried_aboutpage_allrightreserved">All Right Reserved</string>
+    <string name="wemarried_aboutpage_contact">Author: Chris.Li</string>
+    <string name="wemarried_aboutpage_email">Email: chris.li.cheng@gmail.com</string>
     
 </resources>

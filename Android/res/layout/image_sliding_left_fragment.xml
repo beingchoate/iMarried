@@ -35,7 +35,7 @@
             android:textSize="12.0sp" 
             android:textColor="#ffa8a8a3" 
             android:layout_gravity="center_horizontal" 
-            android:id="@+id/yixinCodeTextView" 
+            android:id="@+id/CodeTextView" 
             android:layout_width="wrap_content" 
             android:layout_height="wrap_content" 
             android:layout_marginLeft="10.0dip" 
@@ -71,12 +71,12 @@
             android:background="#ff474745" 
             android:layout_width="fill_parent" 
             android:layout_height="1.0px" />
-        <TextView 
+        <TextView
+            android:id="@+id/aboutbtnlayout"  
             android:textSize="12.0sp" 
             android:textColor="#ff999994" 
             android:gravity="center" 
             android:layout_gravity="bottom|center" 
-            android:id="@+id/inviteFriendBtnLayout" 
             android:background="@drawable/tools_box_invite_btn_selector" 
             android:layout_width="wrap_content" 
             android:layout_height="wrap_content" 

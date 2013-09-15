@@ -48,4 +48,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:lineSpacingExtra">12.0dip</item>
     </style>
+    <style name="A4_Font">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
